@@ -41,9 +41,6 @@ else:
          elif ((("aws" in ch) or ("AWS" in ch) or ("cloud operation" in ch)) and (("run" in ch) or ("execute" in ch))):
              os.system("python3 aws-operation.py")
 
-         elif ((("hadoop" in ch) or ("Hadoop" in ch) or ("hadoop operation" in ch)) and (("run" in ch) or ("execute" in ch))):
-             os.system("python3 hadoop.py")
-
          elif ((("exit" in ch) or ("return" in ch)) and (("from main menu" in ch) or ("menu" in ch))):
              os.system("exit")
              break
